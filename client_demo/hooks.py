@@ -112,6 +112,8 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+after_migrate = "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
+
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -123,14 +125,14 @@ app_license = "MIT"
 # 		"on_trash": "method"
 # 	}
 # }
-doc_events = {
-    "Account": {
-        after_migrate = [
-    "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
-]
+# doc_events = {
+#     "Account": {
+#         after_migrate = [
+#     "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
+# ]
 
-    }
-}
+#     }
+# }
 
 # Scheduled Tasks
 # ---------------
