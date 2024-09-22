@@ -213,3 +213,8 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"client_demo.auth.validate"
 # ]
+# hooks.py
+
+after_migrate = [
+    "client_demo.update_parent_accounts.update_parent_accounts"
+]
