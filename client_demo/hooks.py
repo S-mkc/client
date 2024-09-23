@@ -112,7 +112,7 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
-after_migrate = "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
+# after_migrate = "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
 
 # Document Events
 # ---------------
