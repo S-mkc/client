@@ -113,7 +113,7 @@ app_license = "MIT"
 # }
 
 # after_migrate = "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
-
+before_migrate = "client_demo.client_demo.update_parent_accounts.update_parent_accounts"
 # Document Events
 # ---------------
 # Hook on document methods and events

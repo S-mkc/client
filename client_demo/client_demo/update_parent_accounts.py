@@ -45,9 +45,21 @@ def update_parent_accounts():
         {"account_name": "19213N NMB/NPR 0200010920300038 CUR (N) - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
         {"account_name": "19218N EBL/NPR 03500105200628 CUR  (N) - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
         {"account_name": "12100 FixedAssetUnderConstruction - HPL", "new_parent_account": "52000 - Other Expenses - HPL"},
-        {"account_name": "Account 3", "new_parent_account": "New Parent 3"},
-        {"account_name": "Account 3", "new_parent_account": "New Parent 3"},
-        # Add more accounts as needed
+        {"account_name": "15700 OtherShortTermReceiv - HPL", "new_parent_account": "52000 - Other Expenses - HPL"},
+        {"account_name": "17000 PrepaidExpenses - HPL", "new_parent_account": "52000 - Other Expenses - HPL"},
+        {"account_name": "19601 DepositNPR - HPL", "new_parent_account": "52000 - Other Expenses - HPL"}, 
+        {"account_name": "29900 OtherShortTermLiab - HPL", "new_parent_account": "52000 - Other Expenses - HPL"},
+        {"account_name": "29901 InventoryReceivedNotBilled - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12700 Tool - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12800 ComputerHardware - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12801 ComputerSoftware - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12802 OfficeMachine - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12803 ElectricAppliances - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12804 Phones/PhoneSystems - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12805 OtherOfficeEquip - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "12809 OtherFixedAsset - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        {"account_name": "14000 RawMaterialSemiManufacture - HPL", "new_parent_account": "51000 - Direct Expenses - HPL"},
+        # {"account_name": "Account 3", "new_parent_account": "51000 - Direct Expenses - HPL"},
     ]
 
     # Loop through each account and update the parent account
