@@ -1,0 +1,7 @@
+{
+    "cursor.aipreview.enabled": true,
+    "cursor.chat.collapseInputBoxPills": false,
+    "workbench.editor.autoLockGroups": {
+        "workbench.editor.chatSession": true
+    }
+}
