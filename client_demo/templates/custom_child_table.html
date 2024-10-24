@@ -1,0 +1,46 @@
+<div class="table-responsive">
+    <table class="table table-bordered" id="custom-child-table">
+        <thead>
+            <tr>
+                <th>Item Code</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Qty</th>
+                <th>Rate</th>
+                <th>Amount</th>
+                <th>UOM</th>
+                <th>Invoice</th>
+                <th>Order</th>
+                <th>payment</th>
+                <th>Note</th>
+                <th>Column Name 1</th>
+
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr data-row-index="{{ loop.index0 }}">
+                <td>{{ row.item_code }}</td>
+                <td>{{row.date}}</td>
+                <td>{{ row.description }}</td>
+                {% comment %} <td><input type="text" class="form-control" value="{{ row.qty }}" data-field="qty"></td>
+                <td><input type="text" class="form-control" value="{{ row.rate }}" data-field="rate"></td> {% endcomment %}
+                <td>{{row.qty}}</td>
+                <td>{{row.rate}}</td>
+                <td>{{ row.amount }}</td>
+                <td>{{row.uom}}</td>
+                <td>{{row.invoie}}</td>
+                <td>{{row.order}}</td>
+                <td>{{row.payment}}</td>
+                <td>{{row.note}}</td>
+                <td>{{row.column_name_1}}</td>
+                {% comment %} <td>{{}}</td>
+                <td>{{}}</td> {% endcomment %}
+                
+                <!-- Add more columns and editable fields if needed -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
